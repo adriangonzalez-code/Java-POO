@@ -1,0 +1,112 @@
+General system files
+.DS_Store
+Thumbs.db
+
+Ignore .gitkeep files
+*.gitkeep
+
+IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+Eclipse
+.project
+.classpath
+.settings/
+target/
+
+NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+*.nb-gradle/
+
+VS Code
+.vscode/
+
+Maven
+target/
+*.log
+!src/main/resources/
+!src/main/resources/**/
+
+Gradle
+.gradle/
+build/
+*.jar
+*.war
+*.ear
+
+Logs
+logs/
+*.log
+
+OS generated files
+*.swp
+*.swo
+.~
+
+Temporary files
+*.tmp
+*.bak
+*.swp
+*.swo
+*.orig
+*.rej
+
+Specific IDE configurations
+*.idea/
+*.iml
+*.vscode/
+
+Generated files
+*.class
+*.jar
+*.war
+*.ear
+
+Spring Boot
+*.pid
+*.tmp
+*.gz
+
+Environment properties
+.env
+.properties.local
+application-.yml
+application-*.properties
+
+Test reports
+/test-output/
+surefire-reports/
+failsafe-reports/
+
+Sensitive files
+secret.key
+.env
+*.key
+*.p12
+
+Dependency directory
+dependency-reduced-pom.xml
+node_modules/
+
+Compiled binary files
+*.class
+
+Others
+.~~
+*.bak
+*.orig
+*.rej
+*.tmp
+*.log
+*.lock
+
+JetBrains IDEs specific
+.idea/
+*.iws
+*.ipr
